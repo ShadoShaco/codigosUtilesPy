@@ -8,4 +8,4 @@ for i in profiles:
 	try:
 		print("{:<30}| {:<}".format(i, results[0]))
 	except IndexError:
-		print("{:<30}| {:<}".format(i, ""))
+		print("{:<30}| {:<}".format(i, "")) 
